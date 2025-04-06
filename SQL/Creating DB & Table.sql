@@ -1,0 +1,35 @@
+CREATE DATABASE HOUSES_US;
+
+CREATE TABLE House_Sales(
+bathrooms FLOAT,
+    bedrooms FLOAT,
+    city VARCHAR,
+    homeType VARCHAR,
+    imgSrc VARCHAR,
+    latitude VARCHAR,
+    longitude VARCHAR,
+    livingArea INT,
+    lotAreaUnit VARCHAR,
+    lotAreaValue VARCHAR,
+    price FLOAT,
+    priceForHDP FLOAT,
+    rentZestimate VARCHAR,
+    state VARCHAR,
+    streetAddress VARCHAR,
+    taxAssessedValue VARCHAR,
+    timeOnZillow INT,
+    zestimate VARCHAR,
+    zipcode INT,
+    zpid INT,
+    isShowcaseListing BOOLEAN,
+    isPremierBuilder BOOLEAN,
+    is_FSBA BOOLEAN,
+    is_openHouse BOOLEAN,
+    is_forAuction BOOLEAN,
+    is_newHome BOOLEAN,
+    is_bankOwned BOOLEAN,
+    is_FSBO BOOLEAN,
+    is_foreclosure BOOLEAN,
+    is_comingSoon BOOLEAN
+);
+
